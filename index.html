@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">   
+    <nav class="header">
+        <header ><H1>BMI CALCULATOR</H1></header>
+        <div>   <p>Body Mass Index (BMI) is a Measure of body fat based on <i> weight </i> and <i>Height.</i>
+            </p>
+            <p id="displayinfo"></p>
+        </div>
+    </nav>
+    <div class="form">
+        <form action="">
+        <div>
+            <label for="standard">Standard</label>
+            <input type="radio" id="standard" name="unit" value="standard">
+            <br>
+            <label for="metric" >Metric</label>
+            <input type="radio" id ="metric" name="unit" value="metric">
+        </div>
+        <div>
+            <label for="weight">Weight :</label>
+            <input type="text" value="" placeholder="" id="weight">
+            <label for="height">Height :</label>
+            <input type="text" value="" placeholder="" id="height">
+        </div>
+        <div>
+            <input type="button" value="Reset" id="rest" class="button">
+            <input type="submit" value="Calculate" id="cal" id="cal" class="button">
+            
+        </div>
+        </form>
+            </div>
+            <h4></h4>
+    </div>
+    <script src="sscript.js"></script>
+</body>
+</html>

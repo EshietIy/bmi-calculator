@@ -1,0 +1,23 @@
+body {
+    background: url(/image/pexels-negative-space-48604.jpg) no-repeat ;
+    margin:0;
+    padding:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5em;
+    background-size: cover;
+}
+
+.main{ width: 70%;
+    margin: auto;
+    margin-top: 9%;
+    background:rgba(25, 169, 226,0.9);
+    justify-items: auto;
+    border-radius: 2%;
+    padding: 1.5em;
+}
+.button{
+    font-size: 1.6rem;
+    margin: 1rem;
+    border-color: red;
+
+}
